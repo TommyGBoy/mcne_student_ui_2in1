@@ -21,9 +21,7 @@ export function AdminDurationPanel({ compact = false }: { compact?: boolean }) {
         <span className="size-1.5 rounded-full bg-primary" aria-hidden />
         Admin 示範
       </p>
-      <p className={cn("mt-1 font-semibold text-primary-dark", compact ? "text-sm" : "text-base")}>
-        Course A
-      </p>
+      <p className={cn("mt-1 font-semibold text-primary-dark", compact ? "text-sm" : "text-base")}>Course A</p>
       <p className={cn("tabular-nums text-ink", compact ? "text-xs" : "text-sm")}>
         total duration {formatClock(courseSec)}, page {pages}
       </p>
